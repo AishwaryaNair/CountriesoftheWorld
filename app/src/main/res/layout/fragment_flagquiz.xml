@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quizback">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GUESS THE FLAG"
+        android:id="@+id/guesstheflag"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="25dp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"/>
+
+    <ImageView
+        android:layout_width="2000dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/flagsquiz"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="START QUIZ"
+        android:id="@+id/startflagquiz"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/quizbuttondrawable"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+</LinearLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "boreal-conquest-128520",
+    "project_number": "98266158960",
+    "name": "My Project"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98266158960:android:737c36675247ad70",
+        "client_id": "android:com.example.aishwarya.myapplication",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.aishwarya.myapplication",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98266158960-dn9lcqeb07p4lfe2dnm4mvr86dhcin4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aishwarya.myapplication",
+            "certificate_hash": "37D8A4052475AB157E8D4EB696B9E47EBA54F13E"
+          }
+        },
+        {
+          "client_id": "98266158960-p9m32r80c1rg5e0qi4qm2gijdtfie4i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Countries of the World</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">SearchByLanguage</string>
+    <string name="google_maps_key">AIzaSyBTfAHRcv_SWspZnqHBDiDxBa7CqYHHxvQ</string>
+    <string name="voice">Speak</string>
+    <string name="transition_string">hello</string>
+    <string name="OpenDrawer">OpenDrawer</string>
+    <string name="CloseDrawer">CloseDrawer</string>
+    <string name="facebook_app_id">596908837141464</string>
+</resources>

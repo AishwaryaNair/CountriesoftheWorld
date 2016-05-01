@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="@color/trans">
+    <TableRow
+        android:layout_height="70dp"
+        android:layout_width="50dp">
+        <ImageView
+            android:id="@+id/countrydetailcapitalimage"
+            android:src="@drawable/capitalicon"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/countrydetailpopulationimage"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/countrydetailcapital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/textcolor"/>
+
+            <TextView
+                android:text="Capital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countrydetailcapital"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/secondtextcolor"/>
+
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="70dp"
+        android:layout_width="50dp">
+
+        <ImageView
+            android:id="@+id/countrydetailregionimage"
+            android:layout_width="40dp"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"/>
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/countrydetailregionimage"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/countrydetailregion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:paddingLeft="5dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/textcolor"/>
+
+            <TextView
+                android:text="Part of the world"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countrydetailregion"
+                android:textSize="15dp"
+                android:paddingLeft="5dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/secondtextcolor"/>
+
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="70dp"
+        android:layout_width="50dp">
+        <ImageView
+            android:id="@+id/countrydetailareaimage"
+            android:src="@drawable/area"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/countrydetailareaimage"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/countrydetailarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/textcolor"/>
+
+            <TextView
+                android:text="Area, km^2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countrydetailarea"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/secondtextcolor"/>
+
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="70dp"
+        android:layout_width="50dp">
+
+        <ImageView
+            android:id="@+id/countrydetailpopulationimage"
+            android:src="@drawable/population"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/countrydetailpopulationimage"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/countrydetailpopulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/textcolor"/>
+
+
+            <TextView
+                android:text="Population"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countrydetailpopulation"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/secondtextcolor"/>
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="70dp"
+        android:layout_width="50dp">
+
+        <ImageView
+            android:id="@+id/countrydetailcodeimage"
+            android:src="@drawable/code"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/countrydetailcodeimage"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/countrydetailcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/textcolor"/>
+
+
+            <TextView
+                android:text="ISO 3166-1 alpha-3 Code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countrydetailcode"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/secondtextcolor"/>
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="70dp"
+        android:layout_width="50dp">
+
+        <ImageView
+            android:id="@+id/countrydetaillanguageimage"
+            android:src="@drawable/language"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/countrydetaillanguageimage"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/countrydetaillanguage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/textcolor"/>
+
+
+            <TextView
+                android:text="Language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countrydetaillanguage"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/secondtextcolor"/>
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="70dp"
+        android:layout_width="50dp">
+
+        <ImageView
+            android:id="@+id/countrydetaillanguagecurrency"
+            android:src="@drawable/currency"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp" />
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/countrydetailcurrencyimage"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/countrydetailcurrency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/textcolor"/>
+
+
+            <TextView
+                android:text="Currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countrydetailcurrency"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/secondtextcolor"/>
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="70dp"
+        android:layout_width="50dp">
+
+        <ImageView
+            android:id="@+id/countrydetaillatlngimage"
+            android:src="@drawable/borders"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_toEndOf="@+id/countrydetaillatlngimage"
+            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/countrydetaillatlng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/textcolor"/>
+
+
+            <TextView
+                android:text="[Latitude, Longitude]"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countrydetaillatlng"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:fontFamily="Calibri"
+                android:textColor="@color/secondtextcolor"/>
+        </RelativeLayout>
+
+    </TableRow>
+
+</TableLayout>

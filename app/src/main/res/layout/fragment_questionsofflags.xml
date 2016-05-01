@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/quizback">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:paddingTop="70dp"
+        android:scaleType="fitXY"
+        android:id="@+id/flagquestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/q1radiobox"
+        android:layout_below="@+id/flagquestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:id="@+id/q1a1"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1a2"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1a3"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1a4"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/submitquiz"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/q1radiobox"
+        android:background="@drawable/quizbuttondrawable"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/correctincorrect"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/submitquiz"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"/>
+
+</RelativeLayout>

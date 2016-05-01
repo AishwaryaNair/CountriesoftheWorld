@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".CountryDetail">
+    <item android:id="@+id/wikipedia"
+        android:icon="@drawable/wikipedia"
+        android:title="Wikipedia"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/voice" android:title="@string/voice"
+        android:icon="@drawable/speak"
+        android:orderInCategory="100" app:showAsAction="always" />
+</menu>
